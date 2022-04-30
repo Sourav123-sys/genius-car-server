@@ -44,6 +44,10 @@ app.get('/', (req, res) => {
     res.send('genius car---runnig!')
 
 })
+app.get('/hero', (req, res) => {
+    res.send('heroku---runnig!')
+
+})
 
 
 
